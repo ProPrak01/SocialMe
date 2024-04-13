@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json({ limit: '30mb', extended: true }))
 app.use(express.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors({
-  origin:["https://social-me-server-700m9wv3w-proprak01s-projects.vercel.app/"],
+  origin:["https://social-me-server.vercel.app"],
   method:["POST","GET"],
   credentials:true
 }));
