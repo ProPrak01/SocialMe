@@ -2,10 +2,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   appBarSearch: {
-    borderRadius: 4,
+    
+    borderRadius: "2rem",
     marginBottom: '1rem',
     display: 'flex',
     padding: '16px',
+    backgroundColor:"#FFC470"
+    
   },
   pagination: {
     borderRadius: 4,
@@ -13,6 +16,8 @@ export default makeStyles((theme) => ({
     padding: '16px',
   },
   gridContainer: {
+    backgroundColor:"#DD5746",
+    borderRadius:"2rem",
     [theme.breakpoints.down('xs')]: {
       flexDirection: 'column-reverse',
     },
