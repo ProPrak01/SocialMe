@@ -3,6 +3,8 @@ import { deepPurple } from '@material-ui/core/colors';
 
 export default makeStyles((theme) => ({
   mainContainer: {
+    border:'2px solid black',
+
     borderRadius: 15,
     margin: '30px 0',
     display: 'flex',

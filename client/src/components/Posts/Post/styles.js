@@ -17,6 +17,7 @@ export default makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
+    border:'2px solid black',
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
@@ -37,6 +38,7 @@ export default makeStyles({
     display: 'flex',
   },
   details: {
+    backgroundColor:'#EAFFD0',
     display: 'flex',
     justifyContent: 'space-between',
     margin: '20px',

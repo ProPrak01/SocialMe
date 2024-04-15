@@ -2,7 +2,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   appBarSearch: {
-    
+    border:'3px solid black',
+
     borderRadius: "2rem",
     marginBottom: '1rem',
     display: 'flex',
@@ -16,6 +17,8 @@ export default makeStyles((theme) => ({
     padding: '16px',
   },
   gridContainer: {
+    border:'4px solid black',
+
     backgroundColor:"#DD5746",
     borderRadius:"2rem",
     [theme.breakpoints.down('xs')]: {

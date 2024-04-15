@@ -9,6 +9,8 @@ export default makeStyles((theme) => ({
     },
   },
   paper: {
+    border:'2px solid black',
+
     borderRadius:"25px",
 
     overflow:"hide"
@@ -16,7 +18,9 @@ export default makeStyles((theme) => ({
     // padding: theme.spacing(2),
   },
   form: {
+
     border:"2px solid #8B322C",
+
     borderRadius:"25px",
     backgroundColor:"#FFC470",
     display: 'flex',

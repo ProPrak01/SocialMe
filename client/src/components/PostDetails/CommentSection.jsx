@@ -24,7 +24,7 @@ const CommentSection = ({ post }) => {
 
   return (
     <div>
-      <div className={classes.commentsOuterContainer}>
+      <div className={classes.commentsOuterContainer} >
         <div className={classes.commentsInnerContainer}>
           <Typography gutterBottom variant="h6">Comments</Typography>
           {comments?.map((c, i) => (
@@ -39,7 +39,7 @@ const CommentSection = ({ post }) => {
           <Typography gutterBottom variant="h6">Write a comment</Typography>
           <TextField fullWidth rows={4} variant="outlined" label="Comment" multiline value={comment} onChange={(e) => setComment(e.target.value)} />
           <br />
-          <Button style={{ marginTop: '10px' }} fullWidth disabled={!comment.length} color="primary" variant="contained" onClick={handleComment}>
+          <Button style={{ marginTop: '10px' ,backgroundColor:'#F38181',color:'white'}} fullWidth disabled={!comment.length}  variant="contained" onClick={handleComment}>
             Comment
           </Button>
         </div>
