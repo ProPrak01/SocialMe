@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
     },
   },
   paper: {
-    border:'2px solid black',
+    border:'4px soild black',
 
     borderRadius:"25px",
 
@@ -19,7 +19,7 @@ export default makeStyles((theme) => ({
   },
   form: {
 
-    border:"2px solid #8B322C",
+    
 
     borderRadius:"25px",
     backgroundColor:"#FFC470",

@@ -12,6 +12,7 @@ export default makeStyles((theme) => ({
     
   },
   pagination: {
+    border:'3px solid black',
     borderRadius: 4,
     marginTop: '1rem',
     padding: '16px',
